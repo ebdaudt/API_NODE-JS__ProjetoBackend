@@ -3,12 +3,12 @@
 ```
 mkdir projetoBackend
 ```
-* Acessar pasta
+### Acessar pasta
 ```
 cd projetoBackend
 ```
 
-* Criar arquivo para documentar projeto
+### Criar arquivo para documentar projeto
 ```
 touch readme.md
 ```
@@ -30,7 +30,7 @@ npm i express nodemon dotenv
 ```
 * express: framework web para construção da infraestrutura da API; nodemon: monitora as mudanças nos arquivos do projeto e reinicia automaticamente o servidor Node; dotenv: gerencia as variáveis de ambiente dentro do projeto; A confirmação da instalação dos pacotes pode ser vista na chave 'dependencies' no arquivo package.json, conforme imagem abaixo
 
-* Abrir o VSCode
+### Abrir o VSCode
 ```
 code .
 ```
@@ -40,17 +40,17 @@ nano .gitignore
 ```
 * Com o comando nano, podemos criar e editar um arquivo pelo terminal Ctrl + o: Salvar o arquivo Enter: Confirmar Ctrl + x: Fechar o arquivo Este arquivo é utilizado para ignorar o envio de pastas e arquivos pro gitHub
 
-* Adicionar no arquivo .gitignore o nome da pasta criada após a instalação dos pacotes
+### Adicionar no arquivo .gitignore o nome da pasta criada após a instalação dos pacotes
 ```
 node_modules
 ```
 * Esta pasta node_modules não precisamos enviar pro gitHub, pois pode ser recriada com o comando 'npm install'
 
-Criar estrutura de arquivos e pastas
+## Criar estrutura de arquivos e pastas
 ```
 mkdir src
 ```
-* Criar arquivos dentro da pasta src
+### Criar arquivos dentro da pasta src
 ```
 touch src/app.js
 ```
@@ -58,9 +58,9 @@ touch src/app.js
 ```
 touch src/server.js
 ```
-* Arquivo responsável em receber as configurações da aplicação e rodar a API
+### Arquivo responsável em receber as configurações da aplicação e rodar a API
 
-* Criar pastas dentro da pasta src
+### Criar pastas dentro da pasta src
 ```
 mkdir src/config
 ```
@@ -68,14 +68,14 @@ mkdir src/config
 ```
 mkdir src/controllers
 ```
-* Pasta para gerenciar as requisições das rotas e conexão com banco de dados
+### Pasta para gerenciar as requisições das rotas e conexão com banco de dados
 ```
 mkdir src/routes
 ```
-* Pasta para gerenciar as rotas da API
+### Pasta para gerenciar as rotas da API
 
-*Enviar estrutura do projeto para o gitHub
-* Inicializar o gerenciador de arquivos .git
+### Enviar estrutura do projeto para o gitHub
+### Inicializar o gerenciador de arquivos .git
 ```
 git init
 ```
