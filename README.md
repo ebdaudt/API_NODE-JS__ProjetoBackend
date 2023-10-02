@@ -22,8 +22,6 @@ npm init -y
 ```
 * Deverá ser criado um arquivo package.json na raíz do projeto
 
-* Imagem do resultado do comando no terminal
-
 ### Instalar os pacotes
 ```
 npm i express nodemon dotenv
