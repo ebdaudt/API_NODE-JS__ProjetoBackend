@@ -16,7 +16,7 @@ touch readme.md
 
 * Utilizar este arquivo para descrever as ações executadas, de forma que facilite o entendimento
 
-* Iniciar o gerenciador de pacotes Node
+### Iniciar o gerenciador de pacotes Node
 ```
 npm init -y
 ```
@@ -24,7 +24,7 @@ npm init -y
 
 * Imagem do resultado do comando no terminal
 
-* Instalar os pacotes
+### Instalar os pacotes
 ```
 npm i express nodemon dotenv
 ```
@@ -34,7 +34,7 @@ npm i express nodemon dotenv
 ```
 code .
 ```
-* Criar arquivo .gitignore
+### Criar arquivo .gitignore
 ```
 nano .gitignore
 ```
@@ -54,7 +54,7 @@ mkdir src
 ```
 touch src/app.js
 ```
-* Arquivo responsável de criar a configuração da API
+### Arquivo responsável de criar a configuração da API
 ```
 touch src/server.js
 ```
@@ -64,7 +64,7 @@ touch src/server.js
 ```
 mkdir src/config
 ```
-* Pasta para gerenciar a conexão com o banco de dados
+### Pasta para gerenciar a conexão com o banco de dados
 ```
 mkdir src/controllers
 ```
