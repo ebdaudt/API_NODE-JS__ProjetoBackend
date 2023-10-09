@@ -233,6 +233,8 @@ rm -rf projetoBackend
 * -f (force): não pergunta confirmações
 projetoBackend: nome da pasta que contem os arquivos da aplicação
 
+# PASSO 3
+
 ### Acessar repositório do projeto no gitHub
 * Clicar no botão verde '<> Code'
 
