@@ -396,3 +396,5 @@ Podemos alterar o nome da requisição clicando no ícone de seta para baixo e s
 * O Insomnia deverá retornar a mensagem descrita no método GET do nosso arquivo de rotas
 
 <img src="./assets/img8passo4.png">
+
+teste
