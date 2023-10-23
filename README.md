@@ -233,3 +233,7 @@ rm -rf projetoBackend
 * -f (force): não pergunta confirmações
 projetoBackend: nome da pasta que contem os arquivos da aplicação
 
+PASSO 3
+
+
+PASSO 4
